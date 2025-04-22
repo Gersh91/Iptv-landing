@@ -25,6 +25,21 @@
             font-size: 2em;
             color: #00d9ff;
         }
+        .banner {
+            background: red;
+            color: white;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            animation: pulse 1.5s infinite;
+        }
+        @keyframes pulse {
+            0% { background-color: red; }
+            50% { background-color: #ff4d4d; }
+            100% { background-color: red; }
+        }
         .pricing, .downloads, .payment, .contact {
             background: #222;
             border-radius: 12px;
@@ -63,6 +78,7 @@
 <body>
     <header>
         <h1>Welcome to Mzansi Streams</h1>
+        <div class="banner">HOT SALE - R199 TODAY ONLY</div>
         <p>Premium IPTV at your fingertips. 100% buffer-free with local & international channels, sports, movies & series!</p>
     </header>
 
@@ -76,13 +92,15 @@
 
     <section class="payment">
         <h2>Payment Info</h2>
-        <p>Capitec Bank</p>
-        <p>Mastercard Account No: <strong>1556359048</strong></p>
+        <p>TymeBank</p>
+        <p>Branch Code: <strong>678910</strong></p>
+        <p>Account No: <strong>53002918338</strong></p>
     </section>
 
     <section class="downloads">
-        <h2>Get Smarters Pro</h2>
-        <a class="button" href="https://www.iptvsmarters.com/smarters.apk" target="_blank">Download for Android</a>
+        <h2>Get Our App</h2>
+        <a class="button" href="https://play.google.com/store/apps/details?id=com.ultrastream.ultraxcplayer" target="_blank">Download from Google Play</a>
+        <a class="button" href="https://www.iptvsmarters.com/smarters.apk" target="_blank">Download IPTV Smarters APK</a>
         <p>Or search <strong>"IPTV Smarters Pro"</strong> on your LG/Samsung Smart TV App Store.</p>
     </section>
 
