@@ -1,112 +1,134 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mzansi Streams IPTV</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #111;
-            color: #fff;
-            line-height: 1.6;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
-        }
-        header {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        h1 {
-            font-size: 2em;
-            color: #00d9ff;
-        }
-        .banner {
-            background: red;
-            color: white;
-            font-weight: bold;
-            padding: 10px 20px;
-            border-radius: 10px;
-            font-size: 1.3em;
-            margin-bottom: 15px;
-            animation: pulse 1.5s infinite;
-        }
-        @keyframes pulse {
-            0% { background-color: red; }
-            50% { background-color: #ff4d4d; }
-            100% { background-color: red; }
-        }
-        .pricing, .downloads, .payment, .contact {
-            background: #222;
-            border-radius: 12px;
-            padding: 20px;
-            margin: 10px 0;
-            width: 100%;
-            max-width: 500px;
-        }
-        h2 {
-            color: #00d9ff;
-        }
-        .price {
-            font-size: 1.2em;
-            margin: 5px 0;
-        }
-        a.button {
-            display: block;
-            background: #00d9ff;
-            color: #111;
-            text-align: center;
-            padding: 12px;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: bold;
-            margin: 10px 0;
-        }
-        a.button:hover {
-            background: #00bcd4;
-        }
-        @media (max-width: 600px) {
-            h1 { font-size: 1.5em; }
-            .price { font-size: 1em; }
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mzansi Streams IPTV</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+      line-height: 1.6;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 2em;
+      color: #00d9ff;
+    }
+    .banner {
+      background: red;
+      color: white;
+      font-weight: bold;
+      padding: 10px;
+      border-radius: 10px;
+      font-size: 1.3em;
+      animation: pulse 1.5s infinite;
+    }
+    @keyframes pulse {
+      0% { background-color: red; }
+      50% { background-color: #ff4d4d; }
+      100% { background-color: red; }
+    }
+    section {
+      background: #222;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 15px 0;
+    }
+    h2 {
+      color: #00d9ff;
+    }
+    .price {
+      font-size: 1.2em;
+      margin: 5px 0;
+    }
+    a.button {
+      display: block;
+      background: #00d9ff;
+      color: #111;
+      text-align: center;
+      padding: 12px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    a.button:hover {
+      background: #00bcd4;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    blockquote {
+      background: #333;
+      border-left: 4px solid #00d9ff;
+      padding: 10px;
+      margin: 10px 0;
+      font-style: italic;
+    }
+    .stars {
+      color: gold;
+    }
+    @media (max-width: 600px) {
+      h1 { font-size: 1.5em; }
+      .price { font-size: 1em; }
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Mzansi Streams</h1>
-        <div class="banner">HOT SALE - R199 TODAY ONLY</div>
-        <p>Premium IPTV at your fingertips. 100% buffer-free with local & international channels, sports, movies & series!</p>
-    </header>
+  <header>
+    <h1>Mzansi Streams IPTV</h1>
+    <div class="banner">HOT SALE - R199 TODAY ONLY</div>
+    <p>Premium IPTV – 100% buffer-free with movies, series, live TV, and all sports!</p>
+  </header>
 
-    <section class="pricing">
-        <h2>Pricing Plans</h2>
-        <div class="price">R249 / 1 Month</div>
-        <div class="price">R549 / 3 Months</div>
-        <div class="price">R949 / 6 Months</div>
-        <div class="price">R1,499 / 12 Months</div>
-    </section>
+  <section>
+    <h2>Pricing</h2>
+    <div class="price">R249 / Month</div>
+    <div class="price">R549 / 3 Months</div>
+    <div class="price">R949 / 6 Months</div>
+    <div class="price">R1499 / 12 Months</div>
+  </section>
 
-    <section class="payment">
-        <h2>Payment Info</h2>
-        <p>TymeBank</p>
-        <p>Branch Code: <strong>678910</strong></p>
-        <p>Account No: <strong>53002918338</strong></p>
-    </section>
+  <section>
+    <h2>Payment Info</h2>
+    <p><strong>Bank:</strong> TymeBank</p>
+    <p><strong>Branch Code:</strong> 678910</p>
+    <p><strong>Account Number:</strong> 53002918338</p>
+  </section>
 
-    <section class="downloads">
-        <h2>Get Our App</h2>
-        <a class="button" href="https://play.google.com/store/apps/details?id=com.ultrastream.ultraxcplayer" target="_blank">Download from Google Play</a>
-        <a class="button" href="https://www.iptvsmarters.com/smarters.apk" target="_blank">Download IPTV Smarters APK</a>
-        <p>Or search <strong>"IPTV Smarters Pro"</strong> on your LG/Samsung Smart TV App Store.</p>
-    </section>
+  <section>
+    <h2>Download Our App</h2>
+    <a class="button" href="https://play.google.com/store/apps/details?id=com.ultrastream.ultraxcplayer" target="_blank">Download for Android</a>
+    <a class="button" href="https://www.iptvsmarters.com/smarters.apk" target="_blank">Download Smarters APK</a>
+    <p>Also available on LG/Samsung Smart TV store</p>
+  </section>
 
-    <section class="contact">
-        <h2>Contact & Support</h2>
-        <a class="button" href="https://chat.whatsapp.com/CHRVVJ6fd6J8y4GkkJmjph" target="_blank">Chat with us on WhatsApp</a>
-    </section>
+  <section class="gallery">
+    <h2>Channel Previews</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/en/7/7a/M-Net_logo_2021.png" alt="M-Net">
+    <img src="https://kyknet.dstv.com/images/kyknet-logo.png" alt="KykNet">
+    <img src="https://upload.wikimedia.org/wikipedia/en/1/17/SuperSport_logo_2020.svg" alt="SuperSport">
+  </section>
+
+  <section>
+    <h2>Testimonials</h2>
+    <blockquote>“Absolutely amazing quality and no lag!” – Thabo M. <div class="stars">★★★★★</div></blockquote>
+    <blockquote>“Very reliable and top support!” – Lerato K. <div class="stars">★★★★★</div></blockquote>
+    <blockquote>“Good value for money.” – Jason P. <div class="stars">★★★★☆</div></blockquote>
+  </section>
+
+  <section>
+    <h2>Support</h2>
+    <a class="button" href="https://chat.whatsapp.com/CHRVVJ6fd6J8y4GkkJmjph" target="_blank">Chat With Us on WhatsApp</a>
+  </section>
 </body>
 </html>
