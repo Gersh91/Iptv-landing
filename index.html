@@ -1,90 +1,94 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Premium Streaming Access</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #0e0e0e;
-      color: #fff;
-    }
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 2rem;
-      text-align: center;
-    }
-    h1 {
-      color: #00ffa6;
-    }
-    .pricing {
-      display: grid;
-      gap: 1rem;
-      margin: 2rem 0;
-    }
-    .plan {
-      background: #1a1a1a;
-      padding: 1.5rem;
-      border-radius: 10px;
-      border: 1px solid #333;
-    }
-    .plan h2 {
-      margin: 0;
-      color: #00ffa6;
-    }
-    .contact, .payment {
-      margin-top: 2rem;
-      background: #1f1f1f;
-      padding: 1rem;
-      border-radius: 8px;
-    }
-    a.button {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.75rem 1.5rem;
-      background: #00ffa6;
-      color: #000;
-      border-radius: 5px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mzansi Streams IPTV</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: #fff;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 2em;
+            color: #00d9ff;
+        }
+        .pricing, .downloads, .payment, .contact {
+            background: #222;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 10px 0;
+            width: 100%;
+            max-width: 500px;
+        }
+        h2 {
+            color: #00d9ff;
+        }
+        .price {
+            font-size: 1.2em;
+            margin: 5px 0;
+        }
+        a.button {
+            display: block;
+            background: #00d9ff;
+            color: #111;
+            text-align: center;
+            padding: 12px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        a.button:hover {
+            background: #00bcd4;
+        }
+        @media (max-width: 600px) {
+            h1 { font-size: 1.5em; }
+            .price { font-size: 1em; }
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <h1>All-in-One Premium Streaming</h1>
-    <p>Access 17,000+ live channels, movies, and series — buffer-free and secure on all devices.</p>
+    <header>
+        <h1>Welcome to Mzansi Streams</h1>
+        <p>Premium IPTV at your fingertips. 100% buffer-free with local & international channels, sports, movies & series!</p>
+    </header>
 
-    <div class="pricing">
-      <div class="plan">
-        <h2>1 Month - R249</h2>
-      </div>
-      <div class="plan">
-        <h2>3 Months - R699 <br><small>Save R48</small></h2>
-      </div>
-      <div class="plan">
-        <h2>6 Months - R1,349 <br><small>Save R145</small></h2>
-      </div>
-      <div class="plan">
-        <h2>12 Months - R2,599 <br><small>Save R389</small></h2>
-      </div>
-    </div>
+    <section class="pricing">
+        <h2>Pricing Plans</h2>
+        <div class="price">R249 / 1 Month</div>
+        <div class="price">R549 / 3 Months</div>
+        <div class="price">R949 / 6 Months</div>
+        <div class="price">R1,499 / 12 Months</div>
+    </section>
 
-    <div class="contact">
-      <h3>Contact Us on WhatsApp</h3>
-      <a class="button" href="https://chat.whatsapp.com/CHRVVJ6fd6J8y4GkkJmjph" target="_blank">Join Chat</a>
-    </div>
+    <section class="payment">
+        <h2>Payment Info</h2>
+        <p>Capitec Bank</p>
+        <p>Mastercard Account No: <strong>1556359048</strong></p>
+    </section>
 
-    <div class="payment">
-      <h3>Payment Details</h3>
-      <p><strong>Bank:</strong> Capitec</p>
-      <p><strong>Account Number:</strong> 1556359048</p>
-      <p><strong>Type:</strong> Mastercard</p>
-    </div>
-  </div>
+    <section class="downloads">
+        <h2>Get Smarters Pro</h2>
+        <a class="button" href="https://www.iptvsmarters.com/smarters.apk" target="_blank">Download for Android</a>
+        <p>Or search <strong>"IPTV Smarters Pro"</strong> on your LG/Samsung Smart TV App Store.</p>
+    </section>
+
+    <section class="contact">
+        <h2>Contact & Support</h2>
+        <a class="button" href="https://chat.whatsapp.com/CHRVVJ6fd6J8y4GkkJmjph" target="_blank">Chat with us on WhatsApp</a>
+    </section>
 </body>
 </html>
