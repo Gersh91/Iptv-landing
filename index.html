@@ -6,87 +6,85 @@
   <title>Global Network IPTV</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-900 text-white font-sans min-h-screen flex flex-col">
+<body class="bg-gray-900 text-white font-sans">
 
-  <!-- Header with background image -->
-  <header class="min-h-screen bg-cover bg-center flex flex-col items-center justify-center text-center p-6" style="background-image: url('/mnt/data/file-BjkF6oyG42zcpYZEpPeBRN');">
-    <div class="bg-black bg-opacity-60 p-6 rounded-xl">
-      <h1 class="text-4xl md:text-5xl font-bold text-white">Premium All In One Entertainment</h1>
-      <p class="mt-4 text-xl md:text-2xl text-gray-200">20,000+ Live Channels, Movies, Series & Sports – All in HD!</p>
-    </div>
+  <!-- Header Image at the Top -->
+  <header class="w-full">
+    <img src="/mnt/data/file-BjkF6oyG42zcpYZEpPeBRN" alt="Global Network IPTV" class="w-full h-auto object-cover" />
   </header>
 
-  <!-- Main content -->
-  <main class="flex-grow">
+  <!-- Main Content Wrapper -->
+  <main class="w-full min-h-screen px-6 py-10 flex flex-col items-center justify-start space-y-16">
+
+    <!-- Title -->
+    <section class="text-center max-w-4xl">
+      <h1 class="text-4xl md:text-5xl font-bold text-yellow-400">Premium All In One Entertainment</h1>
+      <p class="text-2xl md:text-3xl mt-4 text-white">20,000+ Live Channels, Movies, Series & Sports – All in HD!</p>
+    </section>
+
     <!-- Features Section -->
-    <section class="max-w-5xl mx-auto py-10 px-4">
-      <h2 class="text-2xl font-semibold text-yellow-400 mb-6">🔥 What We Offer:</h2>
-      <ul class="space-y-4 text-lg">
-        <li class="flex items-center">
-          <span class="text-green-400 font-bold mr-2">✅</span> Local & International Channels
-        </li>
-        <li class="flex items-center">
-          <span class="text-green-400 font-bold mr-2">✅</span> Latest Movies & Series (Updated Daily)
-        </li>
-        <li class="flex items-center">
-          <span class="text-green-400 font-bold mr-2">✅</span> Live Sports & PPV Events
-        </li>
-        <li class="flex items-center">
-          <span class="text-green-400 font-bold mr-2">✅</span> Fast & Reliable Streaming
-        </li>
-        <li class="flex items-center">
-          <span class="text-green-400 font-bold mr-2">✅</span> 24/7 Customer Support
-        </li>
+    <section class="max-w-4xl w-full">
+      <h2 class="text-3xl font-semibold text-green-400 mb-6">🔥 What We Offer:</h2>
+      <ul class="text-2xl space-y-4">
+        <li><span class="text-green-400 font-bold">✅</span> Local & International Channels</li>
+        <li><span class="text-green-400 font-bold">✅</span> Latest Movies & Series (Updated Daily)</li>
+        <li><span class="text-green-400 font-bold">✅</span> Live Sports & PPV Events</li>
+        <li><span class="text-green-400 font-bold">✅</span> Fast & Reliable Streaming</li>
+        <li><span class="text-green-400 font-bold">✅</span> 24/7 Customer Support</li>
       </ul>
+    </section>
 
-      <p class="mt-8 text-xl text-yellow-300 font-semibold">All this at unbeatable prices – no hidden fees!</p>
-
-      <!-- Pricing Section -->
-      <div class="mt-6 grid md:grid-cols-3 gap-6 text-center">
-        <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
-          <h3 class="text-xl font-bold text-white mb-2">1 Month</h3>
-          <p class="text-2xl font-semibold text-green-400">R199</p>
+    <!-- Pricing Section -->
+    <section class="max-w-4xl w-full text-center">
+      <h3 class="text-3xl font-semibold text-yellow-300 mb-6">All this at unbeatable prices – no hidden fees!</h3>
+      <div class="grid md:grid-cols-3 gap-6 text-2xl">
+        <div class="bg-gray-800 p-6 rounded-xl">
+          <h4 class="font-bold mb-2">1 Month</h4>
+          <p class="text-green-400 font-bold text-3xl">R199</p>
         </div>
-        <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
-          <h3 class="text-xl font-bold text-white mb-2">3 Months</h3>
-          <p class="text-2xl font-semibold text-green-400">R499</p>
+        <div class="bg-gray-800 p-6 rounded-xl">
+          <h4 class="font-bold mb-2">3 Months</h4>
+          <p class="text-green-400 font-bold text-3xl">R499</p>
         </div>
-        <div class="bg-gray-800 p-6 rounded-xl shadow-lg">
-          <h3 class="text-xl font-bold text-white mb-2">6 Months</h3>
-          <p class="text-2xl font-semibold text-green-400">R899</p>
+        <div class="bg-gray-800 p-6 rounded-xl">
+          <h4 class="font-bold mb-2">6 Months</h4>
+          <p class="text-green-400 font-bold text-3xl">R899</p>
         </div>
-      </div>
-
-      <div class="mt-10 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl text-center w-full md:w-1/2 mx-auto font-bold text-lg shadow-lg cursor-pointer">
-        📲 DM us now to get your <span class="underline">FREE trial</span> and see the difference for yourself!
       </div>
     </section>
 
-    <!-- Testimonials or Join Section -->
-    <section class="bg-gray-800 py-8 px-4 text-center">
-      <h3 class="text-2xl font-bold text-green-400 mb-3">🎉 Join hundreds of happy customers across South Africa</h3>
-      <p class="text-lg">Enjoying top-quality entertainment right now!</p>
+    <!-- Free Trial Button -->
+    <section class="w-full text-center">
+      <a href="https://wa.me/27649034298" target="_blank" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold text-2xl px-8 py-4 rounded-full shadow-lg">
+        📲 DM us now to get your <u>FREE trial</u> and see the difference for yourself!
+      </a>
+    </section>
+
+    <!-- Testimonial or Join Message -->
+    <section class="bg-gray-800 w-full py-10 text-center">
+      <h3 class="text-3xl font-bold text-green-400">🎉 Join hundreds of happy customers across South Africa</h3>
+      <p class="text-xl mt-2">Enjoying top-quality entertainment right now!</p>
     </section>
 
     <!-- Contact Section -->
-    <section class="bg-gray-900 py-10 text-center">
-      <h4 class="text-xl font-semibold text-white mb-4">Get in Touch</h4>
-      <div class="flex justify-center space-x-4 flex-wrap">
-        <a href="https://wa.me/27649034298" target="_blank" class="bg-green-500 hover:bg-green-600 px-6 py-3 rounded-full text-white font-semibold">
+    <section class="text-center space-y-6">
+      <h4 class="text-2xl font-bold">Contact Us</h4>
+      <div class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-6">
+        <a href="https://wa.me/27649034298" target="_blank" class="bg-green-500 hover:bg-green-600 px-6 py-3 rounded-full text-white font-bold text-xl">
           WhatsApp: 064 903 4298
         </a>
-        <a href="mailto:globalnetwork@netlify.app" class="bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-full text-white font-semibold">
+        <a href="mailto:globalnetwork@netlify.app" class="bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-full text-white font-bold text-xl">
           Email: globalnetwork@netlify.app
         </a>
       </div>
     </section>
   </main>
 
-  <!-- Footer / T&Cs -->
-  <footer class="bg-gray-700 text-sm text-gray-300 text-center p-4 mt-10">
+  <!-- Terms & Footer -->
+  <footer class="bg-gray-700 text-center text-sm text-gray-300 py-6 mt-10 px-6">
     <p>Our IPTV service is intended for private use only. Users are responsible for ensuring their use complies with local laws and regulations.</p>
     <p class="mt-1">We do not host any content ourselves; all streams are publicly available through third-party providers.</p>
-    <p class="mt-2">&copy; 2025 Global Network IPTV</p>
+    <p class="mt-4">&copy; 2025 Global Network IPTV</p>
   </footer>
 
 </body>
